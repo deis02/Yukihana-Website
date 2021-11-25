@@ -5,7 +5,7 @@ $(document).ready(function () {
         $(".heroSectionVideo").attr('src', '');
     });
     $(".heroSectionPopUpVideo").on('show.bs.modal', function () {
-        $(".heroSectionVideo").attr('src', url + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0");
+        $(".heroSectionVideo").attr('src', url);
     });
 });
 // == Hero Section - Video : End ==
@@ -18,7 +18,7 @@ $(document).ready(function () {
         $(".ourWorksVideoMusicVideo01").attr('src', '');
     });
     $(".ourWorksPopUpVideo").on('show.bs.modal', function () {
-        $(".ourWorksVideoMusicVideo01").attr('src', url + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0");
+        $(".ourWorksVideoMusicVideo01").attr('src', url);
     });
 });
 
@@ -29,7 +29,7 @@ $(document).ready(function () {
         $(".ourWorksVideoMusicVideo02").attr('src', '');
     });
     $(".ourWorksPopUpVideo").on('show.bs.modal', function () {
-        $(".ourWorksVideoMusicVideo02").attr('src', url + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0");
+        $(".ourWorksVideoMusicVideo02").attr('src', url );
     });
 });
 
@@ -40,7 +40,7 @@ $(document).ready(function () {
         $(".ourWorksVideoMusicVideo03").attr('src', '');
     });
     $(".ourWorksPopUpVideo").on('show.bs.modal', function () {
-        $(".ourWorksVideoMusicVideo03").attr('src', url + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0");
+        $(".ourWorksVideoMusicVideo03").attr('src', url );
     });
 });
 
@@ -51,7 +51,7 @@ $(document).ready(function () {
         $(".ourWorksVideoMusicVideo04").attr('src', '');
     });
     $(".ourWorksPopUpVideo").on('show.bs.modal', function () {
-        $(".ourWorksVideoMusicVideo04").attr('src', url + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0");
+        $(".ourWorksVideoMusicVideo04").attr('src', url );
     });
 });
 // == Our Works - Music Video : End ==
@@ -64,7 +64,7 @@ $(document).ready(function () {
         $(".ourWorksVideoPreviewVideo01").attr('src', '');
     });
     $(".ourWorksPopUpVideo").on('show.bs.modal', function () {
-        $(".ourWorksVideoPreviewVideo01").attr('src', url + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0");
+        $(".ourWorksVideoPreviewVideo01").attr('src', url );
     });
 });
 
@@ -75,7 +75,7 @@ $(document).ready(function () {
         $(".ourWorksVideoPreviewVideo02").attr('src', '');
     });
     $(".ourWorksPopUpVideo").on('show.bs.modal', function () {
-        $(".ourWorksVideoPreviewVideo02").attr('src', url + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0");
+        $(".ourWorksVideoPreviewVideo02").attr('src', url );
     });
 });
 
@@ -86,7 +86,7 @@ $(document).ready(function () {
         $(".ourWorksVideoPreviewVideo03").attr('src', '');
     });
     $(".ourWorksPopUpVideo").on('show.bs.modal', function () {
-        $(".ourWorksVideoPreviewVideo03").attr('src', url + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0");
+        $(".ourWorksVideoPreviewVideo03").attr('src', url );
     });
 });
 
@@ -97,7 +97,7 @@ $(document).ready(function () {
         $(".ourWorksVideoPreviewVideo04").attr('src', '');
     });
     $(".ourWorksPopUpVideo").on('show.bs.modal', function () {
-        $(".ourWorksVideoPreviewVideo04").attr('src', url + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0");
+        $(".ourWorksVideoPreviewVideo04").attr('src', url );
     });
 });
 // == Our Works - Preview Video : End ==
@@ -110,7 +110,7 @@ $(document).ready(function () {
         $(".ourWorksVideoIntroOutro01").attr('src', '');
     });
     $(".ourWorksPopUpVideo").on('show.bs.modal', function () {
-        $(".ourWorksVideoIntroOutro01").attr('src', url + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0");
+        $(".ourWorksVideoIntroOutro01").attr('src', url );
     });
 });
 
@@ -121,7 +121,7 @@ $(document).ready(function () {
         $(".ourWorksVideoIntroOutro02").attr('src', '');
     });
     $(".ourWorksPopUpVideo").on('show.bs.modal', function () {
-        $(".ourWorksVideoIntroOutro02").attr('src', url + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0");
+        $(".ourWorksVideoIntroOutro02").attr('src', url );
     });
 });
 
@@ -132,7 +132,7 @@ $(document).ready(function () {
         $(".ourWorksVideoIntroOutro03").attr('src', '');
     });
     $(".ourWorksPopUpVideo").on('show.bs.modal', function () {
-        $(".ourWorksVideoIntroOutro03").attr('src', url + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0");
+        $(".ourWorksVideoIntroOutro03").attr('src', url );
     });
 });
 
@@ -143,7 +143,7 @@ $(document).ready(function () {
         $(".ourWorksVideoIntroOutro04").attr('src', '');
     });
     $(".ourWorksPopUpVideo").on('show.bs.modal', function () {
-        $(".ourWorksVideoIntroOutro04").attr('src', url + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0");
+        $(".ourWorksVideoIntroOutro04").attr('src', url );
     });
 });
 // == Our Works - Intro . Outro : End ==
@@ -156,7 +156,7 @@ $(document).ready(function () {
         $(".ourWorksVideoStringer01").attr('src', '');
     });
     $(".ourWorksPopUpVideo").on('show.bs.modal', function () {
-        $(".ourWorksVideoStringer01").attr('src', url + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0");
+        $(".ourWorksVideoStringer01").attr('src', url );
     });
 });
 
@@ -167,7 +167,7 @@ $(document).ready(function () {
         $(".ourWorksVideoStringer02").attr('src', '');
     });
     $(".ourWorksPopUpVideo").on('show.bs.modal', function () {
-        $(".ourWorksVideoStringer02").attr('src', url + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0");
+        $(".ourWorksVideoStringer02").attr('src', url);
     });
 });
 
@@ -178,7 +178,7 @@ $(document).ready(function () {
         $(".ourWorksVideoStringer03").attr('src', '');
     });
     $(".ourWorksPopUpVideo").on('show.bs.modal', function () {
-        $(".ourWorksVideoStringer03").attr('src', url + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0");
+        $(".ourWorksVideoStringer03").attr('src', url );
     });
 });
 
@@ -189,7 +189,7 @@ $(document).ready(function () {
         $(".ourWorksVideoStringer04").attr('src', '');
     });
     $(".ourWorksPopUpVideo").on('show.bs.modal', function () {
-        $(".ourWorksVideoStringer04").attr('src', url + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0");
+        $(".ourWorksVideoStringer04").attr('src', url );
     });
 });
 // == Our Works - Stringer : End ==
