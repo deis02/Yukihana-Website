@@ -1,0 +1,81 @@
+@import url('../font/font.css');
+
+html, body {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'HelveticaNeue';
+    color: #1A1B23;
+    position: relative;
+}
+
+.fw-medium {
+    font-family: 'HelveticaNeueMedium;'
+}
+
+.fw-bold {
+    font-family: 'HelveticaNeueBold';
+}
+
+.color-primary {
+    color: #FC2B8E;
+}
+
+.color-secondary {
+    color: #1A1B23;
+}
+
+.color-tertiary {
+    color: #8D8D8D;
+}
+
+.primary-btn {
+    background-color: #FC2B8E;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'HelveticaNeueBold';
+    box-shadow: 0px 12px 25px rgba(252, 43, 142, 0.14);
+    border-radius: 250px;
+}
+
+.primary-btn:hover {
+    background-color: #E81C7C;
+    box-shadow: 0px 16px 18px rgba(252, 43, 142, 0.20);
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.secondary-btn {
+    background-color: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    border-radius: 12px;
+}
+
+/* Modal Style : Start */
+.modal .btn-close {
+    box-shadow: none;
+}
+
+.modal-content iframe {
+    width: 100%;
+    height: 90%;
+    margin: 0 auto;
+    display: block;
+    border: 4px solid #FC2B8E;
+    border-radius: 8px;
+}
+
+/* Medium devices (tablets, 768px and up)  */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .modal-content iframe {
+        width: 80%;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+/* Modal Style : End */

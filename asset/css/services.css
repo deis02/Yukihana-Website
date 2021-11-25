@@ -1,0 +1,191 @@
+#services-section .container {
+    margin-top: -60px !important;
+    padding-bottom: 00px !important;
+}
+
+#services-section .services-heading {
+    font-family: 'HelveticaNeueMedium';
+    font-size: 50px;
+    width: 310px;
+    display: block;
+    margin: auto;
+}
+
+#services-section .services-desc {
+    width: 280px;
+    padding: 24px 0px 24px 0px;
+    display: block;
+    margin: auto;
+    
+}
+
+#services-section .btn.check-our-works {
+    padding: 20px 30px 20px 30px;
+    display: block;
+    width: 90%;
+    margin: auto;
+    margin-top: 35px;
+}
+
+
+#services-section .card {
+    border: 1px solid #EEEEEE;
+    border-radius: 6px;
+}
+
+#services-section .card:hover {
+    cursor: pointer;
+    border: 1px solid #FC2B8E;
+    background-color: #fffbfd;
+    border-radius: 6px;
+}
+
+#services-section .card .heading {
+    font-family: 'HelveticaNeueMedium';
+    margin: 10px 0px 10px 0px;
+}
+
+#services-section .card .desc {
+    font-size: 15px;
+    color: #9A9A9A;
+    line-height: 26px;
+}
+
+/* Small devices (Mobile S, 320px)  */
+@media (max-width: 320px) {
+    #services-section .services-heading {
+        font-family: 'HelveticaNeueMedium';
+        font-size: 40px;
+        width: 280px;
+        display: block;
+        margin: auto;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up)  */
+@media (min-width: 768px) {
+    #services-section .container {
+        padding-top: 80px !important;
+    }
+
+    #services-section .services-heading {
+        width: 580px;
+        font-size: 80px;
+        line-height: 82px;
+        margin-left: 60px;
+        display: inline-block;
+    }
+
+    #services-section .services-desc {
+        margin-left: 180px;
+        margin-bottom: 20px;
+        width: 350px;
+        line-height: 30px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        font-size: 18px;
+    }
+
+    #services-section .btn.check-our-works {
+        display: inline-block;
+        width: unset;
+        margin-top: 60px;
+        margin-left: 260px;
+    }
+
+    #services-section .card .desc {
+        font-size: 18px;
+        color: #9A9A9A;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #services-section .container {
+        padding-top: 100px !important;
+    }
+
+    #services-section .services-heading {
+        margin: unset;
+        width: 400px;
+        font-size: 60px;
+        line-height: 74px;
+        display: inline-block;
+    }
+
+    #services-section .services-desc {
+        margin: unset;
+        width: 320px;
+        line-height: 30px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        font-size: 17px;
+    }
+
+    #services-section .btn.check-our-works {
+        display: inline-block;
+        width: unset;
+        margin-top: 10px;
+    }
+
+    #services-section .circular-arrow {
+        padding-left: 200px;
+        
+    }
+    #services-section .card .desc {
+        font-size: 15px;
+        color: #9A9A9A;
+    }
+
+    #services-section .btn.check-our-works {
+        display: inline-block;
+        width: unset;
+        margin-top: 20px;
+        margin-left: unset;
+    }
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    #services-section .container {
+        padding-top: 200px !important;
+        margin-bottom: -60px !important; 
+    }
+    
+    #services-section .services-heading {
+        margin: unset;
+        width: 500px;
+        font-size: 70px;
+        line-height: 82px;
+        display: inline-block;
+    }
+    
+    #services-section .services-desc {
+        margin: unset;
+        width: 320px;
+        line-height: 34px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        font-size: 17px;
+    }
+
+    #services-section .card .desc {
+        font-size: 16px;
+        color: #9A9A9A;
+        line-height: 30px;
+    }
+
+    #services-section .circular-arrow {
+        padding-left: 300px;
+        
+    }
+
+    #services-section .btn.check-our-works {
+        display: inline-block;
+        width: unset;
+        margin-top: 20px;
+        margin-left: unset;
+    }
+}

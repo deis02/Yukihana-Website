@@ -1,0 +1,106 @@
+#pricing-section .container {
+    margin-top: -60px !important;
+    padding-bottom: 00px !important;
+}
+
+#pricing-section .pricing-heading {
+    font-family: 'HelveticaNeueMedium';
+    font-size: 50px;
+    padding-top: 10px;
+}
+
+#pricing-section .card {
+    border: 1px solid #EEEEEE;
+    border-radius: 6px;
+}
+
+#pricing-section .card:hover {
+    cursor: pointer;
+    border: 1px solid #FC2B8E;
+    background-color: #fffbfd;
+    border-radius: 6px;
+}
+
+#pricing-section .btn-slider-pricing-prev:hover {
+    cursor: pointer;
+    border: 1px solid #FC2B8E;
+    background-color: #fffbfd;
+}
+
+#pricing-section .btn-slider-pricing-prev:hover .fill {
+    fill: #FC2B8E !important;
+}
+
+#pricing-section .btn-slider-pricing-next:hover {
+    cursor: pointer;
+    border: 1px solid #FC2B8E;
+    background-color: #fffbfd;
+}
+
+#pricing-section .btn-slider-pricing-next:hover .fill {
+    fill: #FC2B8E !important;
+}
+
+#pricing-section .card .heading {
+    font-family: 'HelveticaNeueMedium';
+}
+
+#pricing-section .price {
+    font-family: 'HelveticaNeueBold';
+    font-size: 40px;
+    color: #FC7D2B;
+}
+
+#pricing-section .desc {
+    font-size: 15px;
+    color: #9A9A9A;
+}
+
+#pricing-section ul {
+    padding: 0;
+    list-style: none;
+}
+
+#pricing-section ul li img {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#pricing-section ul li span {
+    font-size: 15px;
+    color: #9A9A9A;
+    vertical-align: middle;
+    padding-left: 5px;
+}
+
+/* Medium devices (tablets, 768px and up)  */
+@media (min-width: 768px) {
+    #pricing-section .pricing-heading {
+        font-family: 'HelveticaNeueMedium';
+        font-size: 70px;
+        padding-top: 10px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #pricing-section .pricing-heading {
+        font-family: 'HelveticaNeueMedium';
+        font-size: 60px;
+        padding-top: 10px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    #pricing-section {
+        padding-top: 160px !important;
+        margin-bottom: -80px !important;
+    }
+
+    #pricing-section .pricing-heading {
+        font-family: 'HelveticaNeueMedium';
+        font-size: 70px;
+        padding-top: 10px;
+    }
+}

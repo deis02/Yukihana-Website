@@ -1,0 +1,122 @@
+#lets-talk-section {
+    background-image: url('../images/background/bg-pattern-pink.png');
+    background-size: cover;
+    height: 600px;
+    position: relative !important;
+}
+
+#lets-talk-section .heading-lets-talk {
+    font-family: 'HelveticaNeueBold';
+    font-size: 40px;
+}
+
+#lets-talk-section .btn.lets-talk-with-us {
+    color: #ffffff;
+    font-weight: 700;
+    background-color: #FC2B8E;
+    box-shadow: 0px 12px 25px rgba(252, 43, 142, 0.14);
+    border-radius: 250px;
+    padding: 20px 0px 20px 0px;
+    width: 100%;
+    margin-top: 15px;
+    display: block;
+    margin: auto;
+}
+
+#lets-talk-section .btn.lets-talk-with-us:hover {
+    color: #ffffff;
+    font-weight: 700;
+    background-color: #E81C7C;
+    box-shadow: 0px 16px 18px rgba(252, 43, 142, 0.20);
+}
+
+#lets-talk-section .socmed-btn {
+    width: 42px;
+    height: 42px;
+    margin-left: 10px;
+}
+
+#lets-talk-section .socmed-btn:hover {
+    border: 1px solid #FC2B8E;
+}
+
+#lets-talk-section .illustration-img {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0 !important;
+    width: 100%;
+    height: 275px;
+}
+
+/* Medium devices (tablets, 768px and up)  */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #lets-talk-section {
+        height: 580px;
+        border-top: 1px solid #FFD3E8;
+        border-bottom: 1px solid #FFD3E8;
+        
+    }
+
+    #lets-talk-section .heading-lets-talk {
+        font-size: 80px;
+        width: 800px;
+    }
+
+    #lets-talk-section .btn.lets-talk-with-us {
+        padding: 20px 30px 20px 30px;
+        display: inline-block;
+        width: unset;
+    }
+
+    #lets-talk-section .illustration-img {
+        position: absolute;
+        right: unset;
+        bottom: 0 !important;
+        left: unset;
+        width: unset;
+    }
+
+    #lets-talk-section .illustration-img {
+        position: absolute;
+        right: 60px !important;
+        bottom: 0 !important;
+        left: unset;
+        width: unset;
+        height: 250px !important;
+    }
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    #lets-talk-section {
+        height: 580px;
+        border-top: 1px solid #FFD3E8;
+        border-bottom: 1px solid #FFD3E8;
+        
+    }
+
+    #lets-talk-section .heading-lets-talk {
+        font-size: 80px;
+        width: 800px;
+    }
+
+    #lets-talk-section .btn.lets-talk-with-us {
+        padding: 20px 30px 20px 30px;
+        display: inline-block;
+        width: unset;
+    }
+
+    #lets-talk-section .illustration-img {
+        position: absolute ;
+        right: 260px;
+        bottom: 0 !important;
+        left: unset;
+        width: unset;
+        height: 540px !important;
+    }
+}

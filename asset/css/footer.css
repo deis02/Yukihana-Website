@@ -1,0 +1,17 @@
+#footer-section {
+    height: 120px;
+}
+
+#footer-section .copyright {
+    color: #C2C2C2;
+}
+
+#footer-section .btn.terms-of-service {
+    font-family: 'HelveticaNeueMedium';
+    color: #707070;
+}
+
+#footer-section .btn.terms-of-service:hover {
+    font-family: 'HelveticaNeueMedium';
+    color: #FC2B8E;
+}
