@@ -18,7 +18,10 @@ sliderPricing.owlCarousel({
             items: 3
         },
         1200: {
-            items: 4
+            items: 5
+        },
+        1800: {
+            items: 6
         }
     }
 });
