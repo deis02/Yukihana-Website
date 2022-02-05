@@ -31,6 +31,7 @@
 
 #client-section .client-testimonial {
     font-family: 'HelveticaNeueBold';
+    padding-bottom: 30px;
 }
 
 #client-section .client-testimonial, .client-name, .client-profession {
@@ -40,6 +41,10 @@
 #client-section .client-name {
     font-family: 'HelveticaNeueMedium';
     padding-top: 15px;
+}
+
+#client-section .client-name:hover {
+    color: #FC2B8E;
 }
 
 #client-section .client-profession {

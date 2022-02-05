@@ -27,10 +27,10 @@
     margin-top: 35px;
 }
 
-
 #services-section .card {
     border: 1px solid #EEEEEE;
     border-radius: 6px;
+    padding: 8px 10px 8px 10px;
 }
 
 #services-section .card:hover {
@@ -47,8 +47,9 @@
 
 #services-section .card .desc {
     font-size: 15px;
-    color: #9A9A9A;
+    color: #a7a7a7;
     line-height: 26px;
+    letter-spacing: 0.5px;
 }
 
 /* Small devices (Mobile S, 320px)  */
@@ -60,6 +61,7 @@
         display: block;
         margin: auto;
     }
+
 
 }
 
@@ -95,7 +97,6 @@
     }
 
     #services-section .card .desc {
-        font-size: 18px;
         color: #9A9A9A;
     }
 }

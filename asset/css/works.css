@@ -67,8 +67,14 @@
     border-radius: 6px;
 }
 
-#works-section .form-select:active {
+#works-section .form-select {
+    font-family: "HelveticaNeueMedium";
+
+}
+
+#works-section .form-select:hover {
     border-color: #FC2B8E;
+    background-color: #fff9fc;
 }
 
 .our-works-content {
@@ -95,6 +101,15 @@
     fill: #FC2B8E !important;
 }
 
+#works-section .circular-arrow-icon {
+    position: absolute;
+    display: none;
+    z-index: 1;
+    margin-top: -14px;
+    margin-left: 220px;
+}
+
+
 /* Medium devices (tablets, 768px and up)  */
 @media (min-width: 768px) {
     #works-section .works-heading {
@@ -105,6 +120,14 @@
     #works-section .container {
         margin-top: 0px;
         margin-bottom: -40px;
+    }
+
+    #works-section .circular-arrow-icon {
+        position: absolute;
+        display: none;
+        z-index: 1;
+        margin-top: -14px;
+        margin-left: 220px;
     }
 }
 
@@ -121,6 +144,14 @@
     #works-section .select-wrapper {
         padding-top: 15px;
     }
+
+    #works-section .circular-arrow-icon {
+        position: absolute;
+        display: none;
+        z-index: 1;
+        margin-top: -14px;
+        margin-left: 220px;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -133,6 +164,14 @@
     #works-section .container {
         margin-top: 80px;
         margin-bottom: -80px;
+    }
+
+    #works-section .circular-arrow-icon {
+        position: absolute;
+        display: inline-block;
+        z-index: 1;
+        margin-top: -60px;
+        margin-left: 220px;
     }
 }
 

@@ -52,6 +52,52 @@ body {
     border-radius: 12px;
 }
 
+.pricing-btn {
+    color: #FC2B8E;
+    font-size: 15px;
+    font-family: 'HelveticaNeueBold';
+    border-radius: 250px;
+    border-color: #FC2B8E;
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center !important;
+}
+
+.pricing-btn:hover {
+    background-color: #FC2B8E;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'HelveticaNeueBold';
+    border-radius: 250px;
+    box-shadow: 0px 16px 18px rgba(252, 43, 142, 0.20);
+}
+
+.pricing-favorite-btn {
+    color: #FFFFFF;
+    background-color: #FC2B8E;
+    font-size: 15px;
+    font-family: 'HelveticaNeueBold';
+    border-radius: 250px;
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center !important;
+    box-shadow: 0px 16px 18px rgba(252, 43, 142, 0.20);
+}
+
+.pricing-favorite-btn:hover {
+    border-color: #FC2B8E;
+    background-color: #ffffff;
+    color: #FC2B8E;
+    font-size: 15px;
+    font-family: 'HelveticaNeueBold';
+    border-radius: 250px;
+    box-shadow: none;
+}
+
 /* Modal Style : Start */
 .modal .btn-close {
     box-shadow: none;
