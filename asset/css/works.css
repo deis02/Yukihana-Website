@@ -1,11 +1,12 @@
 #works-section .container {
-    margin-top: -60px;
-    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: -20px;
 }
 
 #works-section .works-heading {
     font-family: 'HelveticaNeueMedium';
     font-size: 50px;
+    margin-top: -80px;
 }
 
 #works-section .video-thumbnail-wrapper {
@@ -119,7 +120,7 @@
 
     #works-section .container {
         margin-top: 0px;
-        margin-bottom: -40px;
+        margin-bottom: 60px;
     }
 
     #works-section .circular-arrow-icon {
@@ -162,8 +163,8 @@
     }
 
     #works-section .container {
-        margin-top: 80px;
-        margin-bottom: -80px;
+        margin-top: 0px;
+        margin-bottom: -50px;
     }
 
     #works-section .circular-arrow-icon {

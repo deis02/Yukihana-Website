@@ -214,7 +214,6 @@
         <div class="container-fluid pt-lg-5 pt-4">
             <div class="container d-lg-flex justify-content-lg-between">
             <h1 class="pricing-heading text-center text-lg-start">Our <span class="color-primary">pricing</span>.</h1>
-
             <div class="owl-carousel-nav-btn-wrapper text-end d-lg-block d-none pt-4">
                 <button class="btn btn-slider-pricing-prev prev">
                     <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -238,10 +237,9 @@
             <div class="owl-carousel pt-5" id="sliderPricing">
                 <div>
                     <div class="card">
-                        <div class="card-body-favorite p-4">
+                        <div class="card-body p-4">
                             <div class="container-first">
                                 <img src="asset/icons/simpel-icon-1.svg" alt="" class="icon">
-                                <img src="asset/icons/favorite-choice.svg" alt="" class="favorite">
                             </div>
                             <h3 class="heading pt-3">Simple MV</h3>
                             <h5 class="start pt-2">Starting from</h5>
@@ -275,9 +273,10 @@
 
                 <div>
                     <div class="card">
-                        <div class="card-body p-4">
+                        <div class="card-body-favorite p-4">
                             <div class="container-first">
                             <img src="asset/icons/simpel-icon-2.svg" alt="" class="icon">
+                            <img src="asset/icons/favorite-choice.svg" alt="" class="favorite">
                             </div>
                             <h3 class="heading pt-3">Simple PV</h3>
                             <h5 class="start pt-2">Starting from</h5>
@@ -392,9 +391,20 @@
     <!-- Pricing : End -->
 
     <!-- Works : Start -->
-    <section id="works-section" class="position-relative py-5 mt-4">
-        <div class="container pt-lg-5 pt-4">
-            <h1 class="works-heading text-center">Our <span class="color-primary">works</span>.</h1>
+    <section id="works-section" class="py-5 mt-5">
+        <div class="container-fluid pt-lg-5 pt-4"> 
+            <div class="container d-lg-flex justify-content-lg-between">
+            <h1 class="works-heading text-center text-lg-start">Our <span class="color-primary">works</span>.</h1>
+            <!-- Select Option -->
+                <div class="select-wrapper">
+                    <select class="form-select shadow-none" id="ourWorksSelectOption">
+                        <option value="1" selected>Music Video</option>
+                        <option value="2">Promotional Video</option>
+                        <option value="3">Intro . Outro</option>
+                        <option value="4">Stringer</option>
+                    </select>
+                    </div>
+            </div>
 
             <!-- == Our Works - Music Video : Start == -->
             <div class="our-works-content music-video" id="1" style="display: block;">
@@ -407,8 +417,7 @@
                                 <div class="video-thumbnail-wrapper position-relative">
                                     <img src="asset/images/video-thumbnail/video-thumbnail-1.jpg" alt="" class="video-thumbnail-img" />
                                     <div id="play" class="overlay align-items-center d-flex justify-content-center">
-                                        <img src="asset/icons/play-button.svg" alt="">
-                                    </div>
+                                    <img src="asset/icons/play-button.svg" alt="">
                                 </div>
                             </div>
                         </button>
@@ -663,18 +672,7 @@
                 </div>
             </div>
             <!-- == Our Works - Stringer : End == -->
-            <img src="asset/icons/circular-arrow-3.svg" alt="" class="circular-arrow-icon">
-            <div class="d-lg-flex justify-content-lg-between text-center text-lg-start">
-                <!-- Select Option -->
-                <div class="select-wrapper">
-                <select class="form-select shadow-none d-block mx-auto" id="ourWorksSelectOption">
-                    <option value="1" selected>Music Video</option>
-                    <option value="2">Promotional Video</option>
-                    <option value="3">Intro . Outro</option>
-                    <option value="4">Stringer</option>
-                </select>
-                </div>
-
+            <div class="container d-lg-flex justify-content-lg-between text-center text-lg-start">
                 <!-- Slider Navigation Button -->
                 <div class="owl-carousel-nav-btn-wrapper pt-4">
                     <button class="btn btn-slider-our-works-prev prev">
@@ -1003,7 +1001,7 @@
                         <div class="card-body p-4">
                             <img src="asset/icons/expression-1.svg" alt="" class="expression-img">
                             <h4 class="client-testimonial">"It looks absolutely amazing! couldn't be haven more exicited! thanks so much"</h4>
-                            <a href="https://twitter.com/NeroAegisNTD" target="_blank"class="btn client-name shadow-none p-0" style="padding: 0px;">Nero Aegis NTD</a>
+                            <a href="https://twitter.com/NeroAegisNTD" target="_blank"class="btn client-name shadow-none p-0" style="padding: 0px; width: 100%;">Nero Aegis NTD</a>
                             <p class="client-profession mb-0">Virtual Youtuber</p>
                         </div>
                     </div>
@@ -1014,7 +1012,7 @@
                         <div class="card-body p-4">
                             <img src="asset/icons/expression-2.svg" alt="" class="expression-img">
                             <h4 class="client-testimonial">"I've been planning this for quite awhile and i'm glad i commissioned you guys are doing a wonderful job"</h4>
-                            <a href="hhttps://twitter.com/eevyart" target="_blank"class="btn client-name shadow-none p-0" style="padding: 0px;">Eevyart</a>
+                            <a href="hhttps://twitter.com/eevyart" target="_blank"class="btn client-name shadow-none p-0" style="padding: 0px; width: 100%;">Eevyart</a>
                             <p class="client-profession mb-0">Artist</p>
                         </div>
                     </div>
@@ -1025,7 +1023,7 @@
                         <div class="card-body p-4">
                             <img src="asset/icons/expression-3.svg" alt="" class="expression-img">
                             <h4 class="client-testimonial">"They captured our vision perfectly and exceeded expectations. Highly Recommend!"</h4>
-                            <a href="https://twitter.com/ovgofficial_" target="_blank"class="btn client-name shadow-none p-0" style="padding: 0px;">Ovg Official</a>
+                            <a href="https://twitter.com/ovgofficial_" target="_blank"class="btn client-name shadow-none p-0" style="padding: 0px; width: 100%;">Ovg Official</a>
                             <p class="client-profession mb-0">Artist</p>
                         </div>
                     </div>

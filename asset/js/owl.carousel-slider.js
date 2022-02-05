@@ -2,26 +2,35 @@
 var sliderPricing = $('#sliderPricing');
 sliderPricing.owlCarousel({
     loop: true,
-    margin: 10,
+    margin: 12,
     nav: false,
     responsive: {
         0: {
-            items: 1
+            items: 1,
+            stagePadding: 0
         },
-        600: {
-            items: 2
+        375: {
+            items: 1,
+            stagePadding: 20
+        },
+        700: {
+            items: 2,
+            stagePadding: 40
         },
         900: {
-            items: 3
+            items: 3,
         },
-        1000: {
-            items: 3
+        1100: {
+            items: 3,
+            stagePadding: 80
         },
-        1200: {
-            items: 5
+        1440: {
+            items: 4,
+            stagePadding: 80
         },
         1800: {
-            items: 6
+            items: 5,
+            stagePadding: 100
         }
     }
 });
@@ -45,10 +54,45 @@ allSliderOurWorks.each(function () {
         nav: false,
         responsive: {
             0: {
-                items: 1
+                items: 1,
+                stagePadding: 0
             },
-            600: {
-                items: 3
+            425: {
+                items: 1,
+                stagePadding: 40
+            },
+
+            540: {
+                items: 1,
+                stagePadding: 80
+            },
+            700: {
+                items: 2,
+                stagePadding: 40
+            },
+            1000: {
+                items: 2,
+                stagePadding: 100
+            },
+            1200: {
+                items: 3,
+                stagePadding: 40
+            },
+            1440: {
+                items: 3,
+                stagePadding: 80
+            },
+            1660: {
+                items: 4,
+                stagePadding: 60
+            },
+            1800: {
+                items: 4,
+                stagePadding: 100
+            },
+            2150: {
+                items: 5,
+                stagePadding: 100
             }
         }
     });

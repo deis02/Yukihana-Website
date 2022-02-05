@@ -1,12 +1,12 @@
 #pricing-section .container {
     margin-top: -60px !important;
-    padding-bottom: 00px !important;
+    margin-bottom: 0px !important;
 }
 
 #pricing-section .pricing-heading {
     font-family: 'HelveticaNeueMedium';
     font-size: 50px;
-    padding-top: 10px;
+    padding-top: 0px;
 }
 
 #pricing-section .card .card-body-favorite {
@@ -172,7 +172,7 @@
 @media (min-width: 1200px) {
     #pricing-section {
         padding-top: 160px !important;
-        margin-bottom: -80px !important;
+        margin-bottom: 100px !important;
     }
 
     #pricing-section .pricing-heading {
