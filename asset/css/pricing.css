@@ -18,6 +18,7 @@
 #pricing-section .card {
     border: 1px solid #EEEEEE;
     border-radius: 6px;
+    margin: 20px;
 }
 
 #pricing-section .card:hover {
@@ -150,12 +151,33 @@
 
 /*end*/
 
+/* Small devices (smallphone, 768px and up)  */
+@media (min-width: 375px) {
+    #pricing-section .pricing-heading {
+        font-family: 'HelveticaNeueMedium';
+        font-size: 50px;
+        padding-top: 10px;
+    }
+
+    #pricing-section .card {
+        border: 1px solid #EEEEEE;
+        border-radius: 6px;
+        margin: auto;
+    }
+}
+
 /* Medium devices (tablets, 768px and up)  */
 @media (min-width: 768px) {
     #pricing-section .pricing-heading {
         font-family: 'HelveticaNeueMedium';
         font-size: 70px;
         padding-top: 10px;
+    }
+
+    #pricing-section .card {
+        border: 1px solid #EEEEEE;
+        border-radius: 6px;
+        margin: auto;
     }
 }
 
@@ -165,6 +187,12 @@
         font-family: 'HelveticaNeueMedium';
         font-size: 60px;
         padding-top: 10px;
+    }
+
+    #pricing-section .card {
+        border: 1px solid #EEEEEE;
+        border-radius: 6px;
+        margin: auto;
     }
 }
 
@@ -179,5 +207,11 @@
         font-family: 'HelveticaNeueMedium';
         font-size: 70px;
         padding-top: 10px;
+    }
+
+    #pricing-section .card {
+        border: 1px solid #EEEEEE;
+        border-radius: 6px;
+        margin: auto;
     }
 }
