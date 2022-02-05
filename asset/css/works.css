@@ -110,6 +110,11 @@
     margin-left: 220px;
 }
 
+#works-section .select-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
 
 /* Medium devices (tablets, 768px and up)  */
 @media (min-width: 768px) {
@@ -137,6 +142,7 @@
     #works-section .works-heading {
         font-family: 'HelveticaNeueMedium';
         font-size: 60px;
+        margin: 20px;
     }
     #works-section .container {
         margin-top: 0px;
@@ -160,20 +166,23 @@
     #works-section .works-heading {
         font-family: 'HelveticaNeueMedium';
         font-size: 70px;
+        margin: 20px;
     }
 
     #works-section .container {
-        margin-top: 0px;
-        margin-bottom: -50px;
+        margin-top: 0px; 
+        margin-bottom: -16px !important;   
     }
 
     #works-section .circular-arrow-icon {
         position: absolute;
         display: inline-block;
-        z-index: 1;
-        margin-top: -60px;
-        margin-left: 220px;
+        z-index: 4;
+        width: 140px;
+        margin-top: 0px;
+        margin-left: 920px;
     }
+
 }
 
     

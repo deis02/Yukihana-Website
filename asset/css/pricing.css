@@ -171,8 +171,8 @@
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
     #pricing-section {
-        padding-top: 160px !important;
-        margin-bottom: 100px !important;
+        padding-top: 140px !important;
+        margin-bottom: -60px !important;
     }
 
     #pricing-section .pricing-heading {

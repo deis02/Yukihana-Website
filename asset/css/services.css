@@ -52,6 +52,12 @@
     letter-spacing: 0.5px;
 }
 
+#services-section .circular-arrow {
+    display: none;
+    padding-left: 200px;
+    
+}
+
 /* Small devices (Mobile S, 320px)  */
 @media (max-width: 320px) {
     #services-section .services-heading {
@@ -60,6 +66,12 @@
         width: 280px;
         display: block;
         margin: auto;
+    }
+
+    #services-section .circular-arrow {
+        display: none;
+        padding-left: 200px;
+        
     }
 
 
@@ -99,6 +111,12 @@
     #services-section .card .desc {
         color: #9A9A9A;
     }
+
+    #services-section .circular-arrow {
+        display: none;
+        padding-left: 200px;
+        
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -131,6 +149,7 @@
     }
 
     #services-section .circular-arrow {
+        display: none;
         padding-left: 200px;
         
     }
@@ -179,7 +198,10 @@
     }
 
     #services-section .circular-arrow {
-        padding-left: 300px;
+        margin-top: -140px;
+        width: 540px;
+        margin-left: 20px;
+        display: inline-block;
         
     }
 
