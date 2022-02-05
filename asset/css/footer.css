@@ -6,12 +6,41 @@
     color: #C2C2C2;
 }
 
-#footer-section .btn.terms-of-service {
+#footer-section .btn.footer-menu {
     font-family: 'HelveticaNeueMedium';
     color: #707070;
+    margin: 4px 0px 4px 0px;
 }
 
-#footer-section .btn.terms-of-service:hover {
+#footer-section .btn.footer-menu:hover {
     font-family: 'HelveticaNeueMedium';
     color: #FC2B8E;
+}
+
+#footer-section .mini-footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    }
+
+/* Tab devices (Tab, 1200px and up) */
+@media (min-width: 1000px) {
+    #footer-section .mini-footer{
+        display: inline-block;
+        margin: unset;
+        }
+    #footer-section .btn.footer-menu {
+        margin: 0px 14px 0px 0px;;
+        }
+    }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+#footer-section .mini-footer{
+    display: inline-block;
+    margin: unset;
+    }
+#footer-section .btn.footer-menu {
+    margin: 0px 14px 0px 0px;;
+    }
 }
