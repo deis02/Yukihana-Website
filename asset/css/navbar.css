@@ -1,5 +1,6 @@
 #navbar {
     border: 1px solid #EEEEEE;
+    z-index: 20;
 }
 
 #navbar .navbar-collapse {

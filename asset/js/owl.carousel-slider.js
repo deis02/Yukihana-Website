@@ -64,15 +64,15 @@ allSliderOurWorks.each(function () {
 
             540: {
                 items: 1,
-                stagePadding: 80
+                stagePadding: 140
             },
             700: {
                 items: 2,
-                stagePadding: 40
+                stagePadding: 80
             },
             1000: {
                 items: 2,
-                stagePadding: 100
+                stagePadding: 160
             },
             1200: {
                 items: 3,
@@ -80,7 +80,7 @@ allSliderOurWorks.each(function () {
             },
             1440: {
                 items: 3,
-                stagePadding: 80
+                stagePadding: 160
             },
             1660: {
                 items: 4,
@@ -88,11 +88,11 @@ allSliderOurWorks.each(function () {
             },
             1800: {
                 items: 4,
-                stagePadding: 100
+                stagePadding: 200
             },
             2150: {
                 items: 5,
-                stagePadding: 100
+                stagePadding: 220
             }
         }
     });
